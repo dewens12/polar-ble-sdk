@@ -2,8 +2,8 @@ package com.polar.polarsdkecghrdemo;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,7 +14,6 @@ import com.androidplot.xy.XYPlot;
 
 import org.reactivestreams.Publisher;
 
-import java.util.List;
 import java.util.UUID;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
